@@ -1,14 +1,24 @@
 {
-  "name": "cth",
+  "name": "cht",
   "version": "1.0.0",
   "description": "ChanThecno CLI",
   "main": "index.js",
   "bin": {
-    "cht": "./bin/cht.js"
+    "cht": "bin/cht.js"
   },
   "scripts": {
     "start": "node bin/cht.js cli"
   },
   "author": "ChanThecno",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChanThecno/thecno.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ChanThecno/thecno/issues"
+  },
+  "homepage": "https://github.com/ChanThecno/thecno#readme"
 }
