@@ -1,13 +1,14 @@
 {
-  "name": "chanthecno",
+  "name": "cth",
   "version": "1.0.0",
-  "description": "",
+  "description": "ChanThecno CLI",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "cht": "./bin/cht.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "scripts": {
+    "start": "node bin/cht.js cli"
+  },
+  "author": "ChanThecno",
+  "license": "MIT"
 }
