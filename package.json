@@ -1,8 +1,7 @@
 {
-  "name": "cht",
+  "name": "chanthecno",
   "version": "1.0.0",
   "description": "ChanThecno CLI",
-  "main": "index.js",
   "bin": {
     "cht": "bin/cht.js"
   },
@@ -15,10 +14,14 @@
     "type": "git",
     "url": "git+https://github.com/ChanThecno/thecno.git"
   },
-  "keywords": [],
+  "keywords": [
+    "chanthecno",
+    "cli"
+  ],
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/ChanThecno/thecno/issues"
   },
-  "homepage": "https://github.com/ChanThecno/thecno#readme"
+  "homepage": "https://github.com/ChanThecno/thecno#readme",
+  "main": "index.js"
 }
